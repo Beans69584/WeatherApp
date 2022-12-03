@@ -11,3 +11,4 @@ if (($_GET['fahrenheit']) == "false") {
     $_SESSION['fahrenheit'] = false;
     header('Location: index.php');
 }
+?>
