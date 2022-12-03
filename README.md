@@ -1,3 +1,3 @@
 # WeatherApp
 
-Basic weather app using HTML, CSS and JS.
+Basic weather app using PHP, HTML, CSS and JS.
