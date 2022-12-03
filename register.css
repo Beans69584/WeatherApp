@@ -1,0 +1,142 @@
+body {
+    background-color: #0f0f0f;
+    background-image: url("https://i.imgur.com/LxZ0NoX.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+}
+#submit {
+    background: rgba(0, 0, 0, 0.7);
+    border: 0px solid #0f0f0f;
+    border-radius: 12px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+#submit:hover {
+    background: rgba(0, 0, 0, 0.9);
+    transition: 0.5s;
+}
+#submit:active {
+    background: rgba(0, 0, 0, 0.9);
+    transform: scale(0.95);
+}
+#submit:focus {
+    background: rgba(0, 0, 0, 0.9);
+}
+#username {
+    background: rgba(0, 0, 0, 0.7);
+    border: 0px solid #0f0f0f;
+    border-radius: 12px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+#username:hover {
+    background: rgba(0, 0, 0, 0.9);
+    transition: 0.5s;
+}
+#username:active {
+    background: rgba(0, 0, 0, 0.9);
+}
+#username:focus {
+    background: rgba(0, 0, 0, 0.9);
+}
+#password {
+    background: rgba(0, 0, 0, 0.7);
+    border: 0px solid #0f0f0f;
+    border-radius: 12px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+#password:hover {
+    background: rgba(0, 0, 0, 0.9);
+    transition: 0.5s;
+}
+#password:active {
+    background: rgba(0, 0, 0, 0.9);
+}
+#password:focus {
+    background: rgba(0, 0, 0, 0.9);
+}
+#registerBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-top: 10%;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    padding: 10px;
+    width: 450px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 10px;
+    border-radius: 12px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: rgba(0, 93, 199, 0.5);
+  }
+  .E {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #f0f0f0;
+    text-align: center;
+  }
+  a {
+    color: #f0f0f0;
+    text-decoration: none;
+  }
+  
