@@ -4,7 +4,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <script>
+    <script>
         // make it run when the page is loaded
     window.onload = function() {
         var date = new Date();
@@ -45,8 +45,8 @@ session_start();
 <body>
     <ul>
         <li><a class="active" href="#home" onclick="window.location.reload(true)">Home</a></li>
-        <li style="float:right"><a href="units.php?fahrenheit=false">Metric</a></li>
-        <li style="float:right"><a class="locator" href="#home" onclick="getLocationImperial()">Current Location</a></li>
+        <li style="float:right"><a href="units.php?fahrenheit=true">Imperial</a></li>
+        <li style="float:right"><a class="locator" href="#home" onclick="getLocation()">Current Location</a></li>
         <?php if (isset($_SESSION['username'])) { ?>
             <li style="float:right"><a class="locator" href="#home" onclick="window.location.href='logout.php'">Logout</a></li>
         <?php } else { ?>
@@ -58,8 +58,8 @@ session_start();
     <div class="container">
         <div class="app-title">
             <h1>Real Time Weather</h1>
-            <input type="text" id="search" placeholder="Enter City Name" onkeypress="if (event.keyCode == 13) getWeatherImperial()">
-            <button id="searchButton" onclick="getWeatherImperial()">Search</button>
+            <input type="text" id="search" placeholder="Enter City Name" onkeypress="if (event.keyCode == 13) getWeather()">
+            <button id="searchButton" onclick="getWeather()">Search</button>
         </div>
         <div class="result" id="tempValue" style="display:none">
             <div class="container-dark">
