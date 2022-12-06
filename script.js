@@ -20,22 +20,22 @@ function getWeather() {
     console.log(hours);
     if (hours >= 18 && hours < 22) {
       document.body.style.transition = "0.5s";
-      document.body.style.backgroundImage = "url('https://i.imgur.com/hE4v6oQ.jpg')";
+      document.body.style.backgroundImage = "url('https://i.gifer.com/Ire.gif')";
     }
     // check if it's past 10pm and before 6am
     else if (hours >= 22 || hours < 6) {
       document.body.style.transition = "0.5s";
-      document.body.style.backgroundImage = "url('https://i.imgur.com/MJ90qvd.png')";
+      document.body.style.backgroundImage = "url('https://acegif.com/wp-content/uploads/gifs/starfall-gif-46.gif')";
     }
     // check if it's past 6am and before 12pm
     else if (hours >= 6 && hours < 12) {
       document.body.style.transition = "0.5s";
-      document.body.style.backgroundImage = "url('https://i.imgur.com/sWqlJPJ.jpg')";
+      document.body.style.backgroundImage = "url('https://i.gifer.com/69x.gif')";
     }
     // check if it's past 12pm and before 6pm
     else if (hours >= 12 && hours < 18) {
       document.body.style.transition = "0.5s";
-      document.body.style.backgroundImage = "url('https://i.imgur.com/4Sp18Vp.jpg')";
+      document.body.style.backgroundImage = "url('https://i.gifer.com/7ZQ7.gif')";
     }
     var conditions = response.weather[0].description;
     var temp = response.main.temp;
@@ -92,22 +92,22 @@ function showPosition(position) {
   // check if it's past 6pm and before 10pm 
   if (hours >= 18 && hours < 22) {
     document.body.style.transition = "0.5s";
-    document.body.style.backgroundImage = "url('https://i.imgur.com/hE4v6oQ.jpg')";
+    document.body.style.backgroundImage = "url('https://i.gifer.com/Ire.gif')";
   }
   // check if it's past 10pm and before 6am
   else if (hours >= 22 || hours < 6) {
     document.body.style.transition = "0.5s";
-    document.body.style.backgroundImage = "url('https://i.imgur.com/MJ90qvd.png')";
+    document.body.style.backgroundImage = "url('https://acegif.com/wp-content/uploads/gifs/starfall-gif-46.gif')";
   }
   // check if it's past 6am and before 12pm
   else if (hours >= 6 && hours < 12) {
     document.body.style.transition = "0.5s";
-    document.body.style.backgroundImage = "url('https://i.imgur.com/sWqlJPJ.jpg')";
+    document.body.style.backgroundImage = "url('https://i.gifer.com/69x.gif')";
   }
   // check if it's past 12pm and before 6pm
   else if (hours >= 12 && hours < 18) {
     document.body.style.transition = "0.5s";
-    document.body.style.backgroundImage = "url('https://i.imgur.com/4Sp18Vp.jpg')";
+    document.body.style.backgroundImage = "url('https://i.gifer.com/7ZQ7.gif')";
   }
   var lat = position.coords.latitude;
   var lon = position.coords.longitude;
@@ -172,22 +172,22 @@ function showPositionImperial(position) {
   // check if it's past 6pm and before 10pm 
   if (hours >= 18 && hours < 22) {
     document.body.style.transition = "0.5s";
-    document.body.style.backgroundImage = "url('https://i.imgur.com/hE4v6oQ.jpg')";
+    document.body.style.backgroundImage = "url('https://i.gifer.com/Ire.gif')";
   }
   // check if it's past 10pm and before 6am
   else if (hours >= 22 || hours < 6) {
     document.body.style.transition = "0.5s";
-    document.body.style.backgroundImage = "url('https://i.imgur.com/MJ90qvd.png')";
+    document.body.style.backgroundImage = "url('https://acegif.com/wp-content/uploads/gifs/starfall-gif-46.gif')";
   }
   // check if it's past 6am and before 12pm
   else if (hours >= 6 && hours < 12) {
     document.body.style.transition = "0.5s";
-    document.body.style.backgroundImage = "url('https://i.imgur.com/sWqlJPJ.jpg')";
+    document.body.style.backgroundImage = "url('https://i.gifer.com/69x.gif')";
   }
   // check if it's past 12pm and before 6pm
   else if (hours >= 12 && hours < 18) {
     document.body.style.transition = "0.5s";
-    document.body.style.backgroundImage = "url('https://i.imgur.com/4Sp18Vp.jpg')";
+    document.body.style.backgroundImage = "url('https://i.gifer.com/7ZQ7.gif')";
   }
   var lat = position.coords.latitude;
   var lon = position.coords.longitude;
@@ -252,22 +252,23 @@ function getWeatherImperial() {
     var hours = timetoday.getHours();
     if (hours >= 18 && hours < 22) {
       document.body.style.transition = "0.5s";
-      document.body.style.backgroundImage = "url('https://i.imgur.com/hE4v6oQ.jpg')";
+      // https://i.gifer.com/CUZ.gif
+      document.body.style.backgroundImage = "url('https://i.gifer.com/Ire.gif')";
     }
     // check if it's past 10pm and before 6am
     else if (hours >= 22 || hours < 6) {
       document.body.style.transition = "0.5s";
-      document.body.style.backgroundImage = "url('https://i.imgur.com/MJ90qvd.png')";
+      document.body.style.backgroundImage = "url('https://acegif.com/wp-content/uploads/gifs/starfall-gif-46.gif')";
     }
     // check if it's past 6am and before 12pm
     else if (hours >= 6 && hours < 12) {
       document.body.style.transition = "0.5s";
-      document.body.style.backgroundImage = "url('https://i.imgur.com/sWqlJPJ.jpg')";
+      document.body.style.backgroundImage = "url('https://i.gifer.com/69x.gif')";
     }
     // check if it's past 12pm and before 6pm
     else if (hours >= 12 && hours < 18) {
       document.body.style.transition = "0.5s";
-      document.body.style.backgroundImage = "url('https://i.imgur.com/4Sp18Vp.jpg')";
+      document.body.style.backgroundImage = "url('https://i.gifer.com/7ZQ7.gif')";
     }
     var conditions = response.weather[0].description;
     var temp = response.main.temp;

@@ -36,6 +36,7 @@ h1 {
   transition: 0.5s;
 }
 #searchButton:active {
+  transition: 0.5s;
   background-color: #0f0f0f;
   color: #ffffff;
 }
@@ -93,4 +94,50 @@ li a:hover:not(.active) {
 a {
   color: #f0f0f0;
   text-decoration: none;
+}
+.dropdown {
+  transition: 0.5s;
+  float: right;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  transition: 0.5s;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #111;
+  transition: 0.2s;
+}
+.dropdown-content {
+  transition: 0.5s;
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 0 0 12px 12px;
+}
+.dropdown-content a {
+  transition: 0.5s;
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 0 0 12px 12px;
+}
+.dropdown:hover .dropdown-content {
+  transition: 0.5s;
+  display: block;
 }

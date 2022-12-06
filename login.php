@@ -25,7 +25,8 @@
     $result = mysqli_query($conn, $query);
     if (mysqli_num_rows($result) > 0) {
         session_start();
-        $_SESSION['username'] = $username;
+        // store username in cookie
+        setcookie('username', $username, time() + (86400 * 30), "/");
         header('Location: index.php');
     } else {
         header('Location: login-page.php?error=1');

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="login.css">
+    <link rel="shortcut icon" href="/favicon.ico">
     <title>Login</title>
     <style>
         body {
@@ -12,7 +13,6 @@
             background-size: cover;
         }
     </style>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
     <ul>
@@ -39,6 +39,7 @@
 </center>
     <footer class="E">
         <p>Powered by <a href="https://openweathermap.org/">OpenWeatherMap</a> and <a href="https://maps.google.com">Google Maps</a></p>
+        <p><a href="https://github.com/Beans69584/WeatherApp">GitHub Source Code</a></p>
     </footer>
 </body>
 </html>

@@ -1,6 +1,15 @@
 <?php
     $username = $_POST['username'];
     $password = $_POST['password'];
+    // check password strength
+    $uppercase = preg_match('@[A-Z]@', $password);
+    $lowercase = preg_match('@[a-z]@', $password);
+    $number    = preg_match('@[0-9]@', $password);
+    $punctuation = preg_match('@[^\w]@', $password);
+    if (!$uppercase || !$lowercase || !$number || !$punctuation || strlen($password) < 8) {
+        header('Location: register-page.php?error=3');
+        exit();
+    }
     if (empty($username) || empty($password)) {
         header('Location: register-page.php?error=1');
         exit();
@@ -30,7 +39,7 @@
         $result = mysqli_query($conn, $query);
         if ($result) {
             session_start();
-            $_SESSION['username'] = $username;
+            setcookie('username', $username, time() + (86400 * 30), "/");
             header('Location: index.php');
         } else {
             header('Location: register-page.php?error=1');
